@@ -4,7 +4,7 @@
       {
          "popup": {
              "content_pt": "<p class=\"tooltipTitle\">Editor de Diagrama</p>Esse é o editor de diagrama, com ele você pode gerar a persistência e os CRUD´s das entidades.",
-             "content_en": "<p class =\"tooltipTitle\">Diagram Editor</p> This is the diagram editor, with it you can generate persistence and CRUD's entities.",
+             "content_en": "<p class =\"tooltipTitle\">Diagram Editor</p> This is the diagram editor, where you can generate persistence layer and create the CRUD's entities.",
              "type": "modal"
          }
       }, 
@@ -43,7 +43,7 @@
           "wrapper": "div[ui-id=diagram-structurePanel]",
           "popup": {
              "content_pt": "Aqui você pode editar dados da estrutura dos objetos referente ao diagrama.",
-             "content_en": "Here you can edit the data structure of objects referring to the diagram.",
+             "content_en": "Here you can edit the data structure of the objects in the diagram.",
              "type": "tooltip",
              "position": "left"
           }
