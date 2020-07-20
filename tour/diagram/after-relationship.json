@@ -38,8 +38,8 @@
     {
         "wrapper": "div[ui-id=diagram-wizardCrud]",
         "popup": {
-           "content_pt": "Depois você ainda poderá gerar os CRUD´s de cada entidade criada!",
-           "content_en": "Then you can still generate CRUD's of each entity created!",
+           "content_pt": "Você ainda poderá gerar os formulários (CRUD's) de cada entidade criada!",
+           "content_en": "You can still generate forms (CRUD's) for each entity created!",
            "type": "tooltip",
            "position": "bottom"
         }
@@ -48,7 +48,7 @@
         "wrapper": "div[ui-id=diagram-generateFromDatabase]",
         "popup": {
            "content_pt": "Se você já tiver um banco de dados criado, poderá fazer a engenharia reversa, transformando o seu banco em um diagrama.",
-           "content_en": "If you already have a database created, you can do reverse engineering, turning your database in a diagram.",
+           "content_en": "If you already have a database created, you can make the reverse engineering, turning your database in a diagram.",
            "type": "tooltip",
            "position": "bottom"
         }
