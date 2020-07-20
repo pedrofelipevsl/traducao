@@ -56,8 +56,8 @@
     {
         "wrapper": "div[ui-id=diagram-persistenceLayer]",
         "popup": {
-           "content_pt": "Vamos criar a camada de persistência, clique aqui!",
-           "content_en": "Let´s create the persistence layer, click here!",
+           "content_pt": "Para criar a camada de persistência, clique aqui!",
+           "content_en": "To create the persistence layer, click here!",
            "type": "tooltip",
            "position": "bottom"
         }

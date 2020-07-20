@@ -4,7 +4,7 @@
       {
          "popup": {
              "content_pt": "Essa é a tela onde podemos adicionar, alterar ou remover atributos da classe.",
-             "content_en": "This is the screen where you can add, change or remove attributes of the class.",
+             "content_en": "This is the screen where you can add, edit or remove attributes of the class.",
              "type": "modal"
          }
       },
@@ -13,7 +13,7 @@
           "wrapper": "div[ui-id=attributes-tabQuery]",
           "popup": {
              "content_pt": "Também é possível criar consultas, chamadas de namedQueries, que podem ser utilizadas na camada de negócio para abstrair a busca de dados e deixar a lógica de negócio mais alto nível.",
-             "content_en": "You can also create queries, namedQueries calls, which can be used in business layer to abstract the search data and leave higher-level business logic.",
+             "content_en": "You can also create queries, namedQueries calls, which can be used in business logic layer to abstract the data search and to give a high level comprehension.",
              "type": "tooltip",
              "position": "right"          
           }
@@ -23,7 +23,7 @@
           "wrapper": "div[ui-id=attributes-titleTable] > div:last",
           "popup": {
              "content_pt": "<p class=\"tooltipTitle\">Propridades dos atributos</p><ul><li>Atributo dentro da classe</li><li>Coluna no banco de dados</li><li>Tamanho</li><li>Precisão e escala</li><li>Valor padrão do atributo</li><li>Máscara utilizada na tela</li><li>Tipo de dado</li><li>Anotações para PK, UK, NotNull e RestIgnore</li></ul>",
-             "content_en": "<p class=\"tooltipTitle\">Attributes properties</p><ul><li>Attribute within the class</li><li>Column in the database</li><li>Size</li><li>Precision and scale</li><li>Default value to attribute</li><li>Mask used on the view</li><li>Data type</li><li>Annotations to PK, UK, NotNull and RestIgnore</li></ul>",
+             "content_en": "<p class=\"tooltipTitle\">Attributes properties</p><ul><li>Attribute within the class</li><li>Column in the database</li><li>Size</li><li>Precision and scale</li><li>Attribute default value</li><li>Mask used on the view</li><li>Data type</li><li>Annotations to PK, UK, NotNull and RestIgnore</li></ul>",
              "type": "tooltip",
              "position": "bottom",
              "offsetVertical":-20
