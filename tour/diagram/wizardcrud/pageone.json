@@ -16,7 +16,7 @@
           "wrapper": "*[ui-id=diagram-wizardcrud-txtTarget]",
           "popup": {
              "content_pt": "<p class=\"tooltipTitle\">Pasta destino</p>Onde os arquivos HTML serão criados.",
-             "content_en": "<p class=\"tooltipTitle\">Target Folder</p>Where the HTML files will be created.",
+             "content_en": "<p class=\"tooltipTitle\">Target folder</p>Where the HTML files will be created.",
              "type": "tooltip",
              "position": "top"
           }
@@ -26,7 +26,7 @@
           "wrapper": "*[ui-id=diagram-wizardcrud-btnTarget]",
           "popup": {
              "content_pt": "Você pode alterar a pasta destino clicando aqui.",
-             "content_en": "You can change target folder, click here.",
+             "content_en": "You can change the target folder, by clicking here.",
              "type": "tooltip",
              "position": "top"
           }
@@ -36,7 +36,7 @@
           "wrapper": "*[ui-id=diagram-wizardcrud-btnNext]",
           "popup": {
              "content_pt": "Selecione o modelo e clique em \"Próximo\" para avançar.",
-             "content_en": "Select the template and click in the Next button to forward.",
+             "content_en": "Select the template and click on \"Next\" to move forward.",
              "type": "tooltip",
              "position": "top"
           }
