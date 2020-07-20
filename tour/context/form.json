@@ -4,7 +4,7 @@
       {
          "popup": {
              "content_pt": "<p class=\"tooltipTitle\">Configuração</p>Vamos alterar as propriedades desta fonte de dados!",
-             "content_en": "<p class=\"tooltipTitle\">Configuration</p>Let´s change properties this datasource!",
+             "content_en": "<p class=\"tooltipTitle\">Configuration</p>Let's change the properties of this data source!",
              "type": "modal"
          }
       },
@@ -13,7 +13,7 @@
           "wrapper": "*[ui-id=contex-form-txtName]",
           "popup": {
              "content_pt": "Nome utilizado pelo JNDI para recuperar a fonte de dados e estabelecer a conexão.",
-             "content_en": "Name what JNDI uses for retrieve datasource and make a connection with database.",
+             "content_en": "Name used by JNDI to retrieve the data source and establish the connection.",
              "type": "tooltip",
              "position": "bottom"
           }
@@ -22,7 +22,7 @@
           "wrapper": "*[ui-id=contex-form-txtUser]",
           "popup": {
              "content_pt": "Usuário para conexão com o banco de dados.",
-             "content_en": "Username for database connection.",
+             "content_en": "User for database connection.",
              "type": "tooltip",
              "position": "bottom"
           }
@@ -42,7 +42,7 @@
           "wrapper": "*[ui-id=contex-form-cmbVendor]",
           "popup": {
              "content_pt": "Escolha qual o tipo de banco de dados (Oracle, MySql, SqlServer, etc)",
-             "content_en": "Choose database type (Oracle, MySql, SqlServer and so on)",
+             "content_en": "Choose database type (Oracle, MySql, SqlServer, etc)",
              "type": "tooltip",
              "position": "bottom"
           }
@@ -51,8 +51,8 @@
       {
           "wrapper": "*[ui-id=contex-form-txtURL]",
           "popup": {
-             "content_pt": "URL de conexão é onde está especificado onde o banco de dados está, se vai acontecer alguma ação como criar bannco de dados caso não exista, etc. Ao selecionar o tipo de banco de dados o Cronapp já monta a URL de acordo com o tipo escolhido.",
-             "content_en": "Connection URL is property what determines the database place (server), if happens some action like create database if not to exist and so on. When choose database type, the Cronapp build the connection URL according to database type choosed.",
+             "content_pt": "A URL de conexão especifica onde o banco de dados está e se vai acontecer alguma ação como criar banco de dados caso não exista, entre outros. Ao selecionar o tipo de banco de dados o Cronapp já monta a URL de acordo com o tipo escolhido.",
+             "content_en": "The connection URL specifies where the database is and whether any action will take place such as creating a database if it does not exist, etc. When selecting the type of database Cronapp already assembles the URL according to the chosen type.",
              "type": "tooltip",
              "position": "bottom"
           }
