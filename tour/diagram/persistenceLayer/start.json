@@ -5,7 +5,7 @@
           "wrapper": "div[ui-id=persistenceLayer-fields]",
           "popup": {
              "content_pt": "Informações sobre como os arquivos das camadas de persistência, negócio e REST serão gerados",
-             "content_en": "Here are the controls, events and properties!",
+             "content_en": "These are the controls, events and properties of the diagram!",
              "type": "tooltip",
              "position": "left",
              "width": "250"
@@ -16,7 +16,7 @@
           "wrapper": "div[ui-id=persistenceLayer-btnGenerate]",
           "popup": {
              "content_pt": "Clique aqui para gerar a camada de persistência",
-             "content_en": "These are the controls, objects that you can add to diragrama.",
+             "content_en": "Click here to generate the persistence layer.",
              "type": "tooltip",
              "position": "left"
           }
