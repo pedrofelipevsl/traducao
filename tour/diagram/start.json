@@ -4,7 +4,7 @@
       {
          "popup": {
              "content_pt": "Vamos criar um novo diagrama, ele servirá para criar um banco de dados e toda sua camada de persistência. Além disso, também poderemos criar os CRUD´s para as entidades criadas. Mãos à obra!!!",
-             "content_en": "Let's create a new diagram, it will be used to create your database and all your persistence layers. Additionally, we can also create CRUD's to the created entities. Get to work!!!",
+             "content_en": "Let's create a new diagram, it will be used to create your database and all your persistence layers. Additionally, we can also create CRUD's of entities. Let's get to work!!!",
              "type": "modal"
          }
       }, 
@@ -12,8 +12,8 @@
       {
           "wrapper": "div[ui-id=diagram-rightContext]",
           "popup": {
-             "content_pt": "Aqui estão os controles, eventos e propriedades!",
-             "content_en": "Here are the controls, events and properties!",
+             "content_pt": "Aqui estão os controles, eventos e propriedades do diagrama!",
+             "content_en": "Here are the controls, events and properties of the diagrama!",
              "type": "tooltip",
              "position": "left"
           }
@@ -22,8 +22,8 @@
       {
           "wrapper": "div[ui-id=diagram-controllersPanel]",
           "popup": {
-             "content_pt": "Estes são os controles, objetos que você pode adicionar ao diragrama.",
-             "content_en": "These are the controls, objects that you can add to diragrama.",
+             "content_pt": "Estes são os controles, objetos que você pode adicionar ao diagrama.",
+             "content_en": "These are the controls, objects that you can add to diagram.",
              "type": "tooltip",
              "position": "left"
           }
@@ -53,7 +53,7 @@
           "wrapper": "div[ui-id=categoryControlItemIdUML]",
           "popup": {
              "content_pt": "<p class=\"tooltipTitle\">Criar uma classe</p>Arraste o componente Class para o centro da tela.",
-             "content_en": "<p class=\"tooltipTitle\">Create a class</p>Drag the Class component and drop it in the center of the screen.",
+             "content_en": "<p class=\"tooltipTitle\">Create a class</p>Drag the Class component and drop it in the screen center.",
              "type": "tooltip",
              "position": "left"
           }
