@@ -4,7 +4,7 @@
           {
               "popup": {
                  "content_pt": "Pronto! O atributo foi criado. O Cronapp sugere Id como primeiro atributo, mas você é livre para escolher o que quiser!",
-                 "content_en": "Ready! The attribute was created. Cronapp suggests Id as the first attribute, but you are free to choose what you want!",
+                 "content_en": "It's ready! The attribute has been created. Cronapp suggests Id field as the first attribute, but you are free to choose whatever you want!",
                  "type": "modal"
               }
           },
@@ -13,7 +13,7 @@
               "wrapper": "div[ui-id=attributes-firstLine]",
               "popup": {
                  "content_pt": "Aqui está seu atributo. Altere o que achar necessário.",
-                 "content_en": "Here's your attribute. Change what's necessary.",
+                 "content_en": "There's your attribute. Edit what you think it's necessary.",
                  "type": "tooltip",
                  "position": "bottom",
                  "offsetHorizontal":-700
@@ -24,7 +24,7 @@
               "wrapper": "div[ui-id=attributes-btnAdd]",
               "popup": {
                  "content_pt": "Adicione mais um atributo, que tal um atributo \"nome\"?",
-                 "content_en": "Add another attribute, such an attribute \"name\"?",
+                 "content_en": "Add another attribute, what do you think about an attribute \"name\"?",
                  "type": "tooltip",
                  "position": "top"
               }
@@ -34,7 +34,7 @@
               "wrapper": "div[ui-id=attributes-btnOK]",
               "popup": {
                  "content_pt": "Não esqueça de salvar quando terminar!",
-                 "content_en": "Do not forget to save when you are done!",
+                 "content_en": "Do not forget to save when you finish!",
                  "type": "tooltip",
                  "offsetVertical":-60,
                  "position": "left"
