@@ -16,7 +16,7 @@
           "wrapper": "*[ui-id=diagram-wizardcrud-linha1]",
           "popup": {
              "content_pt": "Clicando no botão \"...\" você pode alterar os campos que serão exibidos tanto na listagem quanto no formulário.",
-             "content_en": "Click the \"...\" you can change the fields that appear in both the list and in form.",
+             "content_en": "Click on the button \"...\" you can change the fields that will appear in the grid and in form.",
              "type": "tooltip",
              "position": "bottom"
           }
@@ -26,7 +26,7 @@
           "wrapper": "*[ui-id=diagram-wizardcrud-btnFinish]",
           "popup": {
              "content_pt": "Caso não queria alterar, clique em \"Finalizar\".",
-             "content_en": "If you do not want to change, click \"Finish\".",
+             "content_en": "If you do not want to change it, click in \"Finish\".",
              "type": "tooltip",
              "position": "top"
           }
