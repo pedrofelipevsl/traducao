@@ -1,0 +1,63 @@
+{
+   "steps":[
+      {
+         "popup":{
+            "content_pt":"<div style='position: relative;top: -180px;'><p class='tooltipTitle'> Bem-vindo ao Cronapp!</p><p><iframe width='320' height='240' src='https://www.youtube.com/embed/img9N9LgJb0?showinfo=0&autoplay=1' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p> <p> O Cronapp é uma plataforma de desenvolvimento de aplicações como serviço na nuvem (dPaaS – Development Platform as a Service), que oferece ambiente de desenvolvimento e serviço de publicação de aplicativos na nuvem. </p><p> Vamos conhecer um pouco mais do nosso ambiente de trabalho.</p><p>Para aprender na prática as principais funcionalidades do cronapp visite nosso <a href='https://docs.cronapp.io/display/CRON2/Get+Started' target='_blank' style='color: #00c7ff; text-decoration: none;'>Get Started</a> onde guiaremos você no desenvolvimento do seu primeiro projeto.</p></div><script type='text/javascript'>setTimeout(function() {$('#tooltipInner').css('height','360px'); $('#jpwClose').css('top','126px');},100);</script>",
+            "content_en":"<div style='position: relative;top: -180px;'><p class='tooltipTitle'> Welcome to Cronapp!</p><p><iframe width='320' height='240' src='https://www.youtube.com/embed/3vZwl94Q0aY?showinfo=0&autoplay=1' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p> <p> The Cronapp is an application development platform as a service in the cloud ( dPaaS - Development Platform as a Service) , which provides development environment and application publishing service in the cloud. </p><p> Let us know a little more of our work environment .</p><p>In order to learn in practice the main functionality of cronapp visit our <a href='https://docs.cronapp.io/display/CRON2/Get+Started' target='_blank' style='color: #00c7ff; text-decoration: none;'>Get Started</a> where we'll guide you through the development of your first project.</p></div><script type='text/javascript'>setTimeout(function() {$('#tooltipInner').css('height','360px'); $('#jpwClose').css('top','126px');},100);</script>",
+            "type":"modal",
+            "width":"1100"
+         }
+      },
+      {
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Área de Trabalho </p> <p>Este é o nosso ambiente de trabalho, local onde suas aplicações serão desenvolvidas.</p>",
+            "content_en":"<p class='tooltipTitle'> Workspace </p> <p>This is our workspace. Here is place where your applications will be developed.</p>",
+            "type":"modal",
+            "width":"400",
+            "position":"bottom",
+            "offsetVertical":"-400"
+         }
+      },
+      {
+         "wrapper":"div[ui-id=workspaceview-menu]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Barra de Menu </p><p>Responsável por prover funcionalidades à janelas específicas ou à aplicação, tais como: abrir arquivos, interagir com o sistema e requisitar ajuda.</p><p>Projeto: Menu responsável pela criação de um novo projeto, abertura e configuração de projetos existentes.</p><p>Executar: Menu responsável por rodar a aplicação e operações de debug.</p><p>Deploy: Menu responsável pela publicação da aplicação e configuração do banco de dados. </p>",
+            "content_en":"<p class='tooltipTitle'> Menu Bar </p> <p>This is our menu bar. Responsible for providing functionality to specific windows or to the application, such as opening files, interacting with the system or request help.</p><p>Project: Responsible for create a new project, open existing projects and project configuration.</p><p>Execute: Responsible for run the application and debug operations.</p><p>Deploy: Responsible for publish the application and database configuration.</p>",
+            "type":"tooltip",
+            "width":"1000",
+            "position":"bottom"
+         }
+      },
+      {
+         "wrapper":"div[ui-id=workspaceview-toolbar-left]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Barra de Atalho </p> <p> Esta é nossa barra de atalho com funcionalidades de acesso rápido. </p>",
+            "content_en":"<p class='tooltipTitle'> Shortcut Bar </p> <p>This is the shortcut bar with quick access to features.</p>",
+            "type":"tooltip",
+            "width":"400",
+            "position":"bottom"
+         }
+      },
+      {
+         "wrapper":"div[class=logo-cronapp-low-code]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Perfil/Feedback </p><p>Aqui você pode ver as informações sobre o seu perfil e também nos fornecer sua opinião sobre a ferramenta.</p>",
+            "content_en":"<p class='tooltipTitle'> User Profile/Feedback </p><p>Here you can see the information on your profile and also give your feedback about the tool.</p>",
+            "type":"tooltip",
+            "width":"400",
+            "position":"left",
+            "offsetHorizontal":"-100"
+         }
+      },
+      {
+         "wrapper":"div[ui-id=workspaceview-toolbar-openproject]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Agora vamos abrir um projeto de exemplo!</p><p>Sua conta já possui projetos de exemplo, para abri-los clique no menu \"Projeto\" e em seguida \"Abrir\", ou simplesmente clique no ícone na barra de atalho.</p>",
+            "content_en":"<p class='tooltipTitle'> Now let´s open a sample project!</p><p>Your account already has sample projects, to open them click the \"Project\" menu and then \"Open\", or simply click on the icon in the shortcut bar.</p>",
+            "type":"tooltip",
+            "width":"600",
+            "position":"right"
+         }
+      }
+   ]
+}

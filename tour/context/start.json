@@ -1,0 +1,73 @@
+{
+    "steps": [
+    
+      {
+         "popup": {
+             "content_pt": "<p class=\"tooltipTitle\">Fonte de dados</p>Aqui é o local onde você gerenciará todas as suas conexões com bancos de dados.",
+             "content_en": "<p class=\"tooltipTitle\">Datasource</p>In this place you will manage all your connections with database.",
+             "type": "modal"
+         }
+      },
+      
+      {
+          "wrapper": "div[ui-id=context-titleTable] > div:eq(3)",
+          "popup": {
+             "content_pt": "<p class=\"tooltipTitle\">Propriedades</p><ul><li>Nome da conexão no JNDI</li><li>Usuário da conexão</li><li>Senha para conexão</li><li>Driver para o banco de dados</li><li>URL de conexão</li></ul>",
+             "content_en": "<p class=\"tooltipTitle\">Properties</p><ul><li>Connection name in JNDI</li><li>Connection User</li><li>Password for connection</li><li>Driver for the database</li><li>Connection URL</li></ul>",
+             "type": "tooltip",
+             "position": "bottom"
+          }
+      },
+      
+      {
+          "wrapper": "div[ui-id=context-first-line]",
+          "popup": {
+             "content_pt": "Já criamos uma conexão para você com um banco de dados H2.",
+             "content_en": "We have created a connection for you with a H2 database.",
+             "type": "tooltip",
+             "position": "bottom"
+          }
+      },
+      
+      {
+          "wrapper": "*[ui-id=context-labelEdit]",
+          "popup": {
+             "content_pt": "Aqui você pode editar as configurações",
+             "content_en": "You can edit the settings",
+             "type": "tooltip",
+             "position": "bottom"
+          }
+      },
+      
+      {
+          "wrapper": "*[ui-id=context-labelRemove]",
+          "popup": {
+             "content_pt": "Clique aqui para remover a conexão",
+             "content_en": "Click here to remove the connection",
+             "type": "tooltip",
+             "position": "bottom"
+          }
+      },
+      
+      {
+          "wrapper": "div[ui-id=context-labelManage]",
+          "popup": {
+             "content_pt": "Clique aqui para abrir o gerenciador do banco de dados, onde você poderá executar comandos SQL, sejam DDL ou DML.",
+             "content_en": "Click here to open the database manager where you can run SQL commands, are DDL or DML.",
+             "type": "tooltip",
+             "position": "bottom"
+          }
+      },
+      
+      {
+          "wrapper": "div[ui-id=context-btnForm]",
+          "popup": {
+             "content_pt": "Clique aqui para cadastrar uma nova fonte de dados",
+             "content_en": "Click here to add new datasource",
+             "type": "tooltip",
+             "position": "left"
+          }
+      }
+      
+    ]
+ }

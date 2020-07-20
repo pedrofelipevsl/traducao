@@ -1,0 +1,122 @@
+{
+   "steps":[
+      {
+         "popup": {
+             "content_pt": "Esta é a primeira vez que você abre um projeto no Cronapp. Antes de começar, vamos explicar rapidamente os principais itens do ambiente de trabalho de um projeto aberto.",
+             "content_en": "This is the first time that you open a project on Cronapp IDE. Before we begin, let us briefly explain the main items of the work space of an open project.",
+             "type": "modal",
+             "width": 450
+         }
+      }, 
+      {
+         "wrapper":"div[ui-id=openProject-src]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Códigos Fonte </p> <p> Nessa pasta encontramos todos os arquivos de desenvolvimento do seu projeto: Frontend, Backend e Testes.</p>",
+            "content_en":"<p class='tooltipTitle'> Sources Code </p> <p> In this folder we find all development files from your project: Front-end, Back-end and Tests.</p>",
+            "type":"tooltip",
+            "width":"400",
+            "position":"right"
+         }
+      },      
+      {
+         "wrapper":"div[ui-id=openProject-diagram]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Diagramas de Dados </p> <p> Nessa pasta encontraremos os diagramas de dados do seu projeto. Os diagramas de dados são o coração de um projeto no Cronapp. Através deles, construiremos nossa estrutura de dados, serviços REST e telas de manutenção.</p>",
+            "content_en":"<p class='tooltipTitle'> Data Diagrams </p> <p> In this folder you will find the project data diagrams. The data diagrams are the heart of a Cronapp project. Through them, we will build our data structure, REST services and maintenance views. </p>",
+            "type":"tooltip",
+            "width":"400",
+            "position":"right",
+            "offsetVertical":"-222",
+            "offsetArrowVertical": "215"
+         }
+      },
+      {
+         "wrapper":"div[ui-id=openProject-template]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Arquivos de Template </p> <p> Nesta pasta encontraremos os arquivos modelos utilizados para criar o template do projeto aberto. Podemos alterar esses aquivos a fim de modificar a geração de arquivos durante o uso da IDE. Ex: telas de CRUD, camada REST etc. </p>",
+            "content_en":"<p class='tooltipTitle'> Template Folder </p> <p> In this folder we can find the template files used to create the openned project. We may change these files to modify the generation of resources while using the IDE. Ex: CRUD screens, REST layer etc. </p>",
+            "type":"tooltip",
+            "width":"400",
+            "position":"right"
+         }
+      },
+      {
+         "wrapper":"div[ui-id=openProject-startTomcat]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Rodar projeto </p><p> Utilize este atalho para rodar seu projeto em um servidor de aplicações. Ao clicar aqui, o Cronapp irá iniciar um servidor de aplicações, fazer o deploy de seu projeto e exibí-lo para você.</p>",
+            "content_en":"<p class='tooltipTitle'> Run project</p><p>Use this shortcut to run your project on an application server. When we click here, the Cronapp will start an application server, deploy your project and show it for you.</p>",
+            "type":"tooltip",
+            "width":"400",
+            "position":"right"
+         }
+      },
+      {
+         "wrapper":"div[ui-id=openProject-startDebugItem]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Debug </p><p> Este é o atalho para a depuração do seu projeto, clique aqui para rodá-lo em modo de debug e poder inspecionar melhor seu código através de breakpoints, expressões, etc. </p>",
+            "content_en":"<p class='tooltipTitle'> Debug your project </p><p> This is the shortcut for debugging your project, click here to run your project in debug mode to inspect your code through breakpoints, expressions, etc. </p>",
+            "type":"tooltip",
+            "width":"600",
+            "position":"right"
+         }
+      },
+      {
+         "wrapper":"div[ui-id=openProject-stopTomcatItem]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Parar </p><p>Clique aqui para parar a execução de um projeto que esteja em andamento.</p>",
+            "content_en":"<p class='tooltipTitle'> Stop </p><p>Click here to stop the execution of a project that is in progress.</p>",
+            "type":"tooltip",
+            "width":"600",
+            "position":"right"
+         }
+      },
+      {
+         "wrapper":"div[ui-id=openProject-runBrowser]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Visualizar seu projeto </p><p>Clique aqui, após rodar ou debugar seu projeto, a fim de visualizá-lo em uma aba do seu navegador. A primeira vez, seu navegador pode bloquear a abertura do projeto, sendo necessário você desbloquear os popups para nossos endereços.</br></br>Observação importante: Um projeto inicialmente é criado com o usuário: \"admin\" e senha padrão: \"admin\"</p>",
+            "content_en":"<p class='tooltipTitle'> Debug your project </p><p> Click here after running or debugging your project in order to view it in a new tab of your browser. The first time, your browser may block the opening of the project. So you need to unlock popups for our addresses. Important Note: A project is initially created with the user: \"admin\" and password: \"admin\". </p>",
+            "type":"tooltip",
+            "width":"600",
+            "position":"right"
+         }
+      },
+      {
+         "wrapper":"div[ui-id=openProject-datasource]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Fontes de Dados </p><p> Neste atalho temos acesso ao arquivo de configuração de banco de dados. O mesmo poderá ser feito acessando o arquivo: Fontes de Dados (context.xml) encontrado na pasta Configurações (config).</p>",
+            "content_en":"<p class='tooltipTitle'> Datasources </p><p> In this shortcut we have access to the database configuration file. The same can be done by accessing the file : Datasources ( context.xml ) found in the Settings folder (config). </p>",
+            "type":"tooltip",
+            "width":"500",
+            "position":"bottom"
+         }
+      },
+      {
+         "wrapper":"div[ui-id=openProject-terminal]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Terminal </p><p> Utilize este atalho para acessar via prompt de comando os arquivos do seu ambiente de trabalho. </p>",
+            "content_en":"<p class='tooltipTitle'> Terminal </p><p> Use this shortcut to access through the command prompt your workspace files. </p>",
+            "type":"tooltip",
+            "width":"400",
+            "position":"bottom"
+         }
+      },
+      {
+         "wrapper":"div[ui-id=workspace-deploy]",
+         "popup":{
+            "content_pt":"<p class='tooltipTitle'> Deploy </p><p> Através deste menu, podemos ter acesso à tela responsável por publicar seu projeto na nuvem, a fim de torná-lo acessível a todos. </p>",
+            "content_en":"<p class='tooltipTitle'> Deploy </p> <p> In this menu we can access the screen responsible for publishing your project in the cloud in order to make it accessible to everyone. </p>",
+            "type":"tooltip",
+            "width":"400",
+            "position":"bottom"
+         }
+      },
+      {
+         "popup": {
+             "content_pt": "<p class='tooltipTitle'>Pronto! Agora você pode utilizar o Cronapp.</p> </br></br>Qualquer dúvida não deixe de nos contactar através do nosso suporte online e não esqueça de nos avaliar através dos botões de \"Curti\" e \"Não Curti\" no canto da tela.",
+             "content_en": "<p class='tooltipTitle'>Now you can use the Cronapp.</p> </br></br>If you have any questions do not hesitate to contact us through our online support and do not forget to evaluate our work through \"Like\" and \"Dislike\" buttons in the corner.",
+             "type": "modal",
+             "width": 450
+         }
+      }
+   ]
+}

@@ -1,0 +1,25 @@
+{
+        "steps": [
+        
+	        {
+	           "popup": {
+	               "content_pt": "Teste em português",
+	               "content_en": "Test in english",
+	               "type": "modal",
+	               "offsetHorizontal": 0,
+                   "offsetVertical": 0                   
+	           }
+	        }, 
+	        
+	        {
+	            "wrapper": "div[ui-id=maintoolbar]",
+	            "popup": {
+	               "content_pt": "Isso é um Toolbar",
+	               "content_en": "This is a Toolbar",
+	               "type": "tooltip"
+	               
+	            }
+	        }
+	        
+        ]
+ }

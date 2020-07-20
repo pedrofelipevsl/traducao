@@ -1,0 +1,45 @@
+{
+    "steps": [
+    
+      {
+          "wrapper": "div[ui-id=diagram-wizardcrud-templates]",
+          "popup": {
+             "content_pt": "<p class=\"tooltipTitle\">Modelos de CRUD</p>Escolha o modelo AngularJS.",
+             "content_en": "<p class=\"tooltipTitle\">CRUD Templates</p>Choose AngularJS template.",
+             "type": "tooltip",
+             "position": "left",
+             "width":250
+          }
+      },
+      
+      {
+          "wrapper": "*[ui-id=diagram-wizardcrud-txtTarget]",
+          "popup": {
+             "content_pt": "<p class=\"tooltipTitle\">Pasta destino</p>Onde os arquivos HTML serão criados.",
+             "content_en": "<p class=\"tooltipTitle\">Target Folder</p>Where the HTML files will be created.",
+             "type": "tooltip",
+             "position": "top"
+          }
+      },
+      
+      {
+          "wrapper": "*[ui-id=diagram-wizardcrud-btnTarget]",
+          "popup": {
+             "content_pt": "Você pode alterar a pasta destino clicando aqui.",
+             "content_en": "You can change target folder, click here.",
+             "type": "tooltip",
+             "position": "top"
+          }
+      },
+      
+      {
+          "wrapper": "*[ui-id=diagram-wizardcrud-btnNext]",
+          "popup": {
+             "content_pt": "Selecione o modelo e clique em \"Próximo\" para avançar.",
+             "content_en": "Select the template and click in the Next button to forward.",
+             "type": "tooltip",
+             "position": "top"
+          }
+      }
+    ]
+ }

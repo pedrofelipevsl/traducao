@@ -1,0 +1,43 @@
+{
+        "steps": [
+        
+          {
+              "popup": {
+                 "content_pt": "Agora vamos criar um relacionamento entre as classes criadas.",
+                 "content_en": "Now let's create a relationship between the created classes.",
+                 "type": "modal"
+              }
+          },
+          
+          {
+              "wrapper": "div[ui-id=diagram-controllersPanel]",
+              "popup": {
+                 "content_pt": "Escolha o objeto 1toN",
+                 "content_en": "Select the object 1toN",
+                 "type": "tooltip",
+                 "position": "left"
+              }
+          },
+          
+          {
+              "wrapper": "g.Class:eq(0)",
+              "popup": {
+                 "content_pt": "Clique nesta classe...",
+                 "content_en": "Click on this class...",
+                 "type": "tooltip",
+                 "position": "bottom"
+              }
+          },
+          
+          {
+              "wrapper": "g.Class:eq(1)",
+              "popup": {
+                 "content_pt": "... e depois nesta classe. O relacionamento será criado!",
+                 "content_en": "... and then this class. The relationship will be created! ",
+                 "type": "tooltip",
+                 "position": "bottom"
+              }
+          }
+          
+        ]
+ }

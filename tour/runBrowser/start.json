@@ -1,0 +1,14 @@
+{
+  "steps": [
+    {
+      "wrapper": "div[ui-id=openProject-runBrowser]",
+      "popup": {
+        "content_pt": "<p>O seu projeto está pronto para ser visualizado, clique aqui para visualizá-lo.</p>",
+        "content_en": "<p>Your project is finished for view, click here to view.</p>",
+        "type": "tooltip",
+        "width": "400",
+        "position": "right"
+      }
+    }
+  ]
+}

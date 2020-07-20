@@ -1,0 +1,53 @@
+{
+    "steps": [
+    
+      {
+         "popup": {
+             "content_pt": "<p class=\"tooltipTitle\">Java</p>Esta é a primeira vez que você abre um arquivo Java. Vamos conhecer algumas facilidades que o Cronapp possui para te ajudar a ser mais produtivo!",
+             "content_en": "<p class=\"tooltipTitle\">Java</p>This is the first time what you opens a Java file. Let's meet some facilities that Cronapp has to help you be more productive!",
+             "type": "modal",
+             "width":400
+         }
+      }, 
+      
+      {
+          "popup": {
+             "content_pt": "<p class=\"tooltipTitle\">Atalhos</p><p>Vou te apresentar as facilidades do CronApp.</p>Alguns atalhos que possuimos:<ul><li>CTRL+Espaço a IDE oferece sugestões</li><li>CTRL+SHIFT+O organiza os imports da classe</li><li>CTRL+SHIFT+F formata o código</li><li>CTRL+O abre a lista de métodos existentes</li>",
+             "content_en": "<p class=\"tooltipTitle\">Shortcuts</p><p>I'll present the CronApp facilities.</p>Some shortcuts we have:<ul><li>CTRL+Space the CronApp shows suggestions</li><li>CTRL+SHIFT+O organize the class imports</li><li>CTRL+SHIFT+F format the code</li><li>CTRL+O open the existensts methods list</li>",
+             "type": "modal",
+             "width":600
+          }
+      },
+      
+      {
+          "wrapper": "div[ui-id=first-open-java-cbMethods]",
+          "popup": {
+             "content_pt": "Para facilitar e aumentar sua produtividade, também listamos os métodos da sua classe aqui!",
+             "content_en": "To facilitate and increase their productivity, also we list the methods their class here!",
+             "type": "tooltip",
+             "position": "bottom"
+          }
+      },
+      
+      {
+         "popup": {
+             "content_pt": "<p class=\"tooltipTitle\">Menu de Contexto</p>Ao clicar com o botão direito do mouse o CronApp apresenta algumas opções, essas opções são contextualizadas, mudam de acordo o local onde você clica... experimente clicar com o botão direito do mouse sobre o nome da classe!",
+             "content_en": "<p class=\"tooltipTitle\">Context Menu</p>By clicking the right mouse button the CronApp presents some options, these options are contextualized, changing depending where you click ... try clicking the right mouse button on the name of the class!",
+             "type": "modal",
+             "width":400
+         }
+      },
+      
+      {
+          "wrapper": "*[ui-id=menu-pane-view-helpMenu]",
+          "popup": {
+             "content_pt": "Não se preocupe em decorar os atalhos... você pode ver todos os atalhos disponíveis clicando em Ajuda > Lista de Atalhos.",
+             "content_en": "Don´t worry of remember of shortcuts... you can see all the shortcuts available by clicking Help> Shortcut List.",
+             "type": "tooltip",
+             "position": "bottom",
+             "width":400
+          }
+      }
+      
+    ]
+ }

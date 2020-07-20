@@ -1,0 +1,33 @@
+{
+        "steps": [
+        
+          {
+              "wrapper": "g.Class:eq(0)",
+              "popup": {
+                 "content_pt": "Muito bem!!! Olha sua classe aí...",
+                 "content_en": "Very good!!! Look at your class here...",
+                 "type": "tooltip",
+                 "position": "bottom"
+              }
+          },
+          
+          {
+              "wrapper": "div[ui-id=diagram-objectInspectorPanel]",
+              "popup": {
+                 "content_pt": "Aqui você pode alterar as suas propriedades, por exemplo, seu nome!",
+                 "content_en": "Here you can change your class properties, for example, its name!",
+                 "type": "tooltip",
+                 "position": "left"
+              }
+          },
+          
+          {
+              "popup": {
+                 "content_pt": "Depois que alterar o nome de sua classe, experimente dar um duplo clique nela!",
+                 "content_en": "After changing your class name, try to double click it!",
+                 "type": "modal"
+              }
+          }
+          
+        ]
+ }

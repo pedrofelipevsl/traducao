@@ -1,0 +1,53 @@
+{
+        "steps": [
+            {
+              "wrapper": "div[ui-id=newProject-projectName]",
+              "popup": {
+                "content_pt": "<p class='tooltipTitle'>Nome do Projeto</p><p>Agora vamos inserir um nome para o nosso projeto.</p>",
+                "content_en": "<p class='tooltipTitle'>Project Name</p>Now let’s insert a name for our project.</p>",
+                "type": "tooltip",
+                "position": "left"
+              }
+            },
+	        {
+	            "wrapper": "div[ui-id=newProject-lbl-IsFromVersionControl]",
+	            "popup": {
+	               "content_pt": "<p class='tooltipTitle'>O projeto está Versionado?</p><p>Ao selecionarmos esse checkbox, assumiremos que o nosso projeto já está versionado em algum repositório de código como: GIT ou SVN.</p>",
+	               "content_en": "<p class='tooltipTitle'>The project is versioned?</p><p>When we select this checkbox, we assume that our project is already versioned in some code repository such as GIT or SVN.</p>",
+	               "type": "tooltip",
+	               "width": 400,
+	               "position": "right"
+	            }
+	        },
+	        {
+	            "wrapper": "div[ui-id=newProject-lbl-ApplyTemplate]",
+	            "popup": {
+	               "content_pt": "<p class='tooltipTitle'>Vamos copiar de um Modelo?</p><p>Ao selecionarmos esse checkbox, assumiremos que o nosso projeto irá receber a estrutura de modelos existentes no Cronapp.</p>",
+	               "content_en": "<p class='tooltipTitle'>Let's copy from a Template?</p><p>When we select this checkbox, we assume that our project will receive the structure of existing templates in Cronapp</p>",
+	               "type": "tooltip",
+	               "width": 400,
+	               "position": "right"
+	            }
+	        },
+            {
+              "wrapper": "div[ui-id=newProject-frameworkVersion]",
+              "popup": {
+                "content_pt": "<p>Agora iremos escolher como será montada a estrutura do nosso projeto. Em alguns casos essa estrutura poderá estar predefinida, como: projetos versionados ou modelos disponibilizados no próprio Cronapp.</p>",
+                "content_en": "<p>Now we will choose how will be set up the structure of your project. In some cases this structure may be predefined, such as: versioned projects or templates available in Cronapp itself.</p>",
+                "type": "tooltip",
+                "position": "left"
+              }
+            },
+            {
+              "wrapper": "div[ui-id=newProject-finish-button]",
+              "popup": {
+                "content_pt": "<p>Após informar o nome do nosso projeto, clique em Finalizar para continuar.</p>",
+                "content_en": "<p>After entering the name of our project, click Finish to continue.</p>",
+                "type": "tooltip",
+                "width": 400,
+                "offsetHorizontal":"40",
+                "position": "top"
+              }
+            }
+        ]
+ }

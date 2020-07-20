@@ -1,0 +1,24 @@
+{
+    "steps": [
+    
+      {
+          "popup": {
+             "content_pt": "Vamos criar outra classe?",
+             "content_en": "Let´s create another class?",
+             "type": "modal",
+             "position": "left"
+          }
+      },
+      
+      {
+          "wrapper": "div[ui-id=diagram-controllersPanel]",
+          "popup": {
+             "content_pt": "Arraste o componente Class para o centro da tela.",
+             "content_en": "Drag the Class componente and drop in screen center.",
+             "type": "tooltip",
+             "position": "left"
+          }
+      }
+      
+    ]
+ }

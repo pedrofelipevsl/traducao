@@ -1,0 +1,63 @@
+{
+    "steps": [
+    
+      {
+         "popup": {
+             "content_pt": "Vamos criar um novo diagrama, ele servirá para criar um banco de dados e toda sua camada de persistência. Além disso, também poderemos criar os CRUD´s para as entidades criadas. Mãos à obra!!!",
+             "content_en": "Let's create a new diagram, it will be used to create your database and all your persistence layers. Additionally, we can also create CRUD's to the created entities. Get to work!!!",
+             "type": "modal"
+         }
+      }, 
+      
+      {
+          "wrapper": "div[ui-id=diagram-rightContext]",
+          "popup": {
+             "content_pt": "Aqui estão os controles, eventos e propriedades!",
+             "content_en": "Here are the controls, events and properties!",
+             "type": "tooltip",
+             "position": "left"
+          }
+      },
+      
+      {
+          "wrapper": "div[ui-id=diagram-controllersPanel]",
+          "popup": {
+             "content_pt": "Estes são os controles, objetos que você pode adicionar ao diragrama.",
+             "content_en": "These are the controls, objects that you can add to diragrama.",
+             "type": "tooltip",
+             "position": "left"
+          }
+      },
+      
+      {
+          "wrapper": "div[ui-id=diagram-objectInspectorPanel]",
+          "popup": {
+             "content_pt": "Quando um objeto é selecionado, suas propriedades são exibidas aqui e você pode alterá-las.",
+             "content_en": "When an object is selected, its properties are displayed here and you can change them.",
+             "type": "tooltip",
+             "position": "left"
+          }
+      },
+      
+      {
+          "wrapper": "div[ui-id=diagram-structurePanel]",
+          "popup": {
+             "content_pt": "Aqui você pode editar os dados da estrutura dos objetos referente ao diagrama.",
+             "content_en": "Here you can edit the data structure of objects referring to the diagram.",
+             "type": "tooltip",
+             "position": "left"
+          }
+      },
+      
+      {
+          "wrapper": "div[ui-id=categoryControlItemIdUML]",
+          "popup": {
+             "content_pt": "<p class=\"tooltipTitle\">Criar uma classe</p>Arraste o componente Class para o centro da tela.",
+             "content_en": "<p class=\"tooltipTitle\">Create a class</p>Drag the Class component and drop it in the center of the screen.",
+             "type": "tooltip",
+             "position": "left"
+          }
+      }
+      
+    ]
+ }

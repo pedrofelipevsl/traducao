@@ -1,0 +1,92 @@
+{
+  "steps": [
+    {
+      "popup": {
+        "content_pt": "<p class='tooltipTitle'>Publicação</p><p>Essa tela é responsável por publicar seu projeto na nuvem, a fim de torná-lo acessível a todos. Vamos entender como esse processo funciona!</p>",
+        "content_en": "<p class='tooltipTitle'>Deploy</p><p>This screen is responsible for publishing your project in the cloud in order to make it accessible to everyone.</p>"
+      }
+    },
+    {
+      "wrapper": "input[ui-id=deploy-target]",
+      "popup": {
+        "content_pt": "<p class='tooltipTitle'>Alvo</p><p>Aqui informaremos o endereço do servidor onde seu projeto será publicado.<br/> Hoje permitimos apenas publicar nos servidores do Cronapp.</p>",
+        "content_en": "<p class='tooltipTitle'>Target</p><p>This field tells the server address where your project will be published. <br/> Only Cronapp servers are supported at this moment.</p>",
+        "type": "tooltip",
+        "position": "left"
+      }
+    },
+    {
+      "wrapper": "div[ui-id=deploy-organization]",
+      "popup": {
+        "content_pt": "<p class='tooltipTitle'>Organização</p><p>Aqui escolhemos a organização onde a aplicação será publicada, por padrão criamos uma organização com base no seu usuário.</p>",
+        "content_en": "<p class='tooltipTitle'>Organization</p><p>Here we chose our organization, by default create a new based on your user.</p>",
+        "type": "tooltip",
+        "position": "left"
+      }
+    },
+    {
+      "wrapper": "div[ui-id=deploy-space]",
+      "popup": {
+        "content_pt": "<p class='tooltipTitle'>Ambiente</p><p>Este campo serve para escolher o ambiente de publicação. Ex: develop, production</p>",
+        "content_en": "<p class='tooltipTitle'>Space</p><p>In this field we choose the publish space of our application.</p>",
+        "type": "tooltip",
+        "position": "left"
+      }
+    },
+    {
+      "wrapper": "div[ui-id=deploy-name]",
+      "popup": {
+        "content_pt": "<p class='tooltipTitle'>Nome</p><p>Neste campo escolhemos o nome da aplicação. Este nome será usado para construir a URL externa da aplicação.</p>",
+        "content_en": "<p class='tooltipTitle'>Name</p><p>In this field we choose the application name. This name will be used to build the external URL of the application.</p>",
+        "type": "tooltip",
+        "position": "left"
+      }
+    },
+    {
+      "wrapper": "input[ui-id=deploy-url]",
+      "popup": {
+        "content_pt": "<p class='tooltipTitle'>URL</p><p>Aqui temos o endereço de nossa aplicação com base no nome escolhido.</p>",
+        "content_en": "<p class='tooltipTitle'>URL</p><p>Here is the address of our application based on the chosen name.</p>",
+        "type": "tooltip",
+        "position": "left"
+      }
+    },
+    {
+      "wrapper": "div[ui-id=deploy-instance]",
+      "popup": {
+        "content_pt": "<p class='tooltipTitle'>Instâncias</p><p>Aqui escolhemos o número de instâncias (servidores) que desejamos ter nossa aplicação rodando. Quando mais instâncias, mais usuários sua aplicação irá suportar.</p>",
+        "content_en": "<p class='tooltipTitle'>Instances</p><p>We choose the number of instances you want to rise to our application...</p>",
+        "type": "tooltip",
+        "position": "left"
+      }
+    },
+    {
+      "wrapper": "div[ui-id=deploy-memory]",
+      "popup": {
+        "content_pt": "<p class='tooltipTitle'>Memória</p><p>Neste campo informamos a quantidade de memória que iremos alocar no servidor. Uma aplicação JAVA com Spring normalmente precisa de 512mb de RAM para rodar com bom desempenho!</p>",
+        "content_en": "<p class='tooltipTitle'>Memory</p><p>In this field we reported the amount of memory that will allocate the server. A JAVA application with Spring usually need 512MB RAM to run with good performance !</p>",
+        "type": "tooltip",
+        "position": "top",
+        "width": 500
+      }
+    },
+    {
+      "wrapper": "div[ui-id=deploy-save]",
+      "popup": {
+        "content_pt": "<p class='tooltipTitle'></p><p>Clique aqui para salvar as informações escolhidas!</p>",
+        "content_en": "<p class='tooltipTitle'></p><p>Click here to save the choosen data...</p>",
+        "type": "tooltip",
+        "position": "top"
+      }
+    },
+    {
+      "wrapper": "div[ui-id=deploy-publish]",
+      "popup": {
+        "content_pt": "<p class='tooltipTitle'></p><p>Clique aqui para publicar sua aplicação. Esse processo pode levar alguns minutos e, mesmo após seu término, levará mais um tempinho até que provisionemos sua aplicação em nossos servidores.</p>",
+        "content_en": "<p class='tooltipTitle'></p><p>Click here to publish your application. This process can take a few minutes and even after its finishing, it will take a little longer until we deploy your application on our servers.</p>",
+        "type": "tooltip",
+        "position": "top"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+        "steps": [
+        	{        	
+        	   "wrapper": "div[ui-id=newProject-projectName]",
+	           "popup": {
+	               "content_pt": "<p class='tooltipTitle'>Nome do Projeto</p><p>Agora vamos inserir um nome para o nosso projeto.</p>",
+	               "content_en": "<p class='tooltipTitle'>Project Name</p>Now let’s insert a name for our project.</p>",
+	               "type": "tooltip",
+	               "position": "left"
+	           }
+	        },
+	        {
+	            "wrapper": "div[ui-id=newProject-btn-CreateProject]",
+	            "popup": {
+	               "content_pt": "<p>Após informar o nome do nosso projeto, clique em Criar Projeto para continuar.</p>",
+	               "content_en": "<p>After infrom the name of your project, click in create new project to continue.</p>",
+	               "type": "tooltip",
+	               "width": 400,
+	               "position": "top"
+	            }
+	        }
+        ]
+ }

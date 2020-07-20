@@ -1,0 +1,24 @@
+{
+    "steps": [
+    
+      {
+          "popup": {
+             "content_pt": "Agora vamos criar as telas!",
+             "content_en": "Let´s create the CRUD´s!”?",
+             "type": "modal",
+             "position": "left"
+          }
+      },
+      
+      {
+          "wrapper": "div[ui-id=diagram-wizardCrud]",
+          "popup": {
+             "content_pt": "Clique aqui para gerar as telas.",
+             "content_en": "Click here to generate CRUD´s",
+             "type": "tooltip",
+             "position": "right"
+          }
+      }
+      
+    ]
+ }

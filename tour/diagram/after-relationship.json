@@ -1,0 +1,66 @@
+{
+  "steps": [
+  
+    {
+        "wrapper": "g.Composition:eq(0)",
+        "popup": {
+           "content_pt": "Relacionamento criado!",
+           "content_en": "The relationship has been created!",
+           "type": "tooltip",
+           "position": "bottom"
+        }
+    },
+    {
+        "popup": {
+           "content_pt": "Com o diagrama pronto podemos avançar...",
+           "content_en": "With the diagram ready we can move forward…",
+           "type": "modal"
+        }
+    },
+    {
+        "wrapper": "div[ui-id=diagram-listDatasource]",
+        "popup": {
+           "content_pt": "Escolha qual a fonte de dados que utilizaremos",
+           "content_en": "Choose which data source we will use",
+           "type": "tooltip",
+           "position": "bottom"
+        }
+    },
+    {
+        "wrapper": "div[ui-id=diagram-persistenceLayer]",
+        "popup": {
+           "content_pt": "Clicando aqui você irá gerar as classes necessárias para a camada de persistência.",
+           "content_en": "By clicking here you will generate the necessary classes for the persistence layer.",
+           "type": "tooltip",
+           "position": "bottom"
+        }
+    },
+    {
+        "wrapper": "div[ui-id=diagram-wizardCrud]",
+        "popup": {
+           "content_pt": "Depois você ainda poderá gerar os CRUD´s de cada entidade criada!",
+           "content_en": "Then you can still generate CRUD's of each entity created!",
+           "type": "tooltip",
+           "position": "bottom"
+        }
+    },
+    {
+        "wrapper": "div[ui-id=diagram-generateFromDatabase]",
+        "popup": {
+           "content_pt": "Se você já tiver um banco de dados criado, poderá fazer a engenharia reversa, transformando o seu banco em um diagrama.",
+           "content_en": "If you already have a database created, you can do reverse engineering, turning your database in a diagram.",
+           "type": "tooltip",
+           "position": "bottom"
+        }
+    },
+    {
+        "wrapper": "div[ui-id=diagram-persistenceLayer]",
+        "popup": {
+           "content_pt": "Vamos criar a camada de persistência, clique aqui!",
+           "content_en": "Let´s create the persistence layer, click here!",
+           "type": "tooltip",
+           "position": "bottom"
+        }
+    }
+  ]
+}
