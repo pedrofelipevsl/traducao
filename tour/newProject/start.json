@@ -3,8 +3,8 @@
 	        {
 	           "wrapper": "div[ui-id=newproject-dialog]",
 	           "popup": {
-	               "content_pt": "<p class='tooltipTitle'>Novo Projeto</p><p>Bem-vindo à página de criação de um novo projeto!<br />Aqui você será capaz de criar novos projetos e configurá-los de acordo com sua necessidade.<br /> Vamos lá!</p>",                 
-	               "content_en": "<p class='tooltipTitle'>New Project</p><p>Welcome to page of criation of a new project!<br /> Here you will be able to create news projects and set up for your reality.<br />let's go!</p>",
+	               "content_pt": "<p class='tooltipTitle'>Novo Projeto</p><p>Bem-vindo à página de criação de um novo projeto!<br/>Aqui você será capaz de criar novos projetos e configurá-los de acordo com sua necessidade.<br/> Vamos lá!</p>",                 
+	               "content_en": "<p class='tooltipTitle'>New Project</p><p>Welcome to the page for creating a new project!<br/>Here you will be able to create news projects and set up for your reality.<br />let's go!</p>",
 	               "type": "tooltip",
                  "position": "right"
 	           }
@@ -13,7 +13,7 @@
 	            "wrapper": "div[ui-id=newProject-btn-mobile]",
 	            "popup": {
 	               "content_pt": "<p class='tooltipTitle'>Mobile e Web</p><p>Ao escolher um projeto do tipo Mobile e Web, você irá criar um projeto com uma estrutura de um projeto Web com possibilidade criar um aplicativo Mobile também.</p>",
-	               "content_en": "<p class='tooltipTitle'>Mobile e Web</p><p>When you choose the Mobile and Web type, you will create a Java Web with Mobile App.</p>",
+	               "content_en": "<p class='tooltipTitle'>Mobile and Web</p><p>When you choose the Mobile and Web type, you will create a project with a structure of a web project with the possibility to create a mobile application as well.</p>",
 	               "type": "tooltip",
 	               "width": 400,
 	               "position": "right"
