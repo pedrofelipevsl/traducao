@@ -5,7 +5,7 @@
           "wrapper": "div[ui-id=diagram-wizardcrud-entities-table]",
           "popup": {
              "content_pt": "<p class=\"tooltipTitle\">Entidades</p>Escolha quais entidades você quer gerar o CRUD.",
-             "content_en": "<p class=\"tooltipTitle\">Entitied</p>Choose which entities you want to generate CRUD.",
+             "content_en": "<p class=\"tooltipTitle\">Entities</p>Choose which entities you want to generate CRUD.",
              "type": "tooltip",
              "position": "left",
              "width":250
@@ -15,8 +15,8 @@
       {
           "wrapper": "*[ui-id=diagram-wizardcrud-linha1]",
           "popup": {
-             "content_pt": "Clicando no botão \"...\" você pode alterar os campos que serão exibidos tanto na listagem quanto no formulário.",
-             "content_en": "Click on the button \"...\" you can change the fields that will appear in the grid and in form.",
+             "content_pt": "Clicando no botão \"...\", você pode alterar os campos que serão exibidos tanto na listagem quanto no formulário.",
+             "content_en": "Clicking on the button \"...\", you can change the fields that will appear in the grid and the form.",
              "type": "tooltip",
              "position": "bottom"
           }
@@ -26,7 +26,7 @@
           "wrapper": "*[ui-id=diagram-wizardcrud-btnFinish]",
           "popup": {
              "content_pt": "Caso não queria alterar, clique em \"Finalizar\".",
-             "content_en": "If you do not want to change it, click in \"Finish\".",
+             "content_en": "If you do not want to change it, click on \"Finish\".",
              "type": "tooltip",
              "position": "top"
           }
