@@ -2,8 +2,8 @@
         "steps": [
         	{
 	           "popup": {
-	               "content_pt": "<p class='tooltipTitle'>Agora vamos selecionar o template que será utilizado para a criação do nosso projeto.</p>",
-	               "content_en": "<p class='tooltipTitle'>Now let’s select the template that will be used for criation of your project.</p>",
+	               "content_pt": "<p class='tooltipTitle'>Agora vamos selecionar o template que será utilizado para a criação do seu projeto.</p>",
+	               "content_en": "<p class='tooltipTitle'>Now we select the template that will be used for the creation of your project.</p>",
 	               "type": "modal",
 	               "width": 400
 	           }
@@ -12,7 +12,7 @@
 	            "wrapper": "div[ui-id=template-item-spring-boot-data-security-angularjs]",
 	            "popup": {
 	               "content_pt": "<p>Este Template é composto pelas tecnologias JPA, Spring Boot e AngularJS, muito utilizadas em aplicações JAVA Web modernas e seguras.</p>",
-	               "content_en": "<p>This Template is made by the JPA technologies, Spring Boot and AngularJS, widely used by JAVA modern and secure Web applications.</p>",
+	               "content_en": "<p>This Template is made by the JPA technologies, Spring Boot and AngularJS, widely used in modern and secure JAVA Web applications.</p>",
 	               "type": "tooltip",
 	               "width": 400,
 	               "position": "bottom"
