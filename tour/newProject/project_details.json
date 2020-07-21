@@ -2,8 +2,8 @@
   "steps": [
     {
       "popup": {
-        "content_pt": "<p class='tooltipTitle'>Agora, iremos definir os detalhes estrutura e arquiteturais do seu projeto</p>",
-        "content_en": "<p class='tooltipTitle'>Now, we will define the architectural and structural details in your project.</p>",
+        "content_pt": "<p class='tooltipTitle'>Agora, iremos definir os detalhes de estrutura e arquitetura do seu projeto.</p>",
+        "content_en": "<p class='tooltipTitle'>Now, we will define the details of the structure and architecture of your project.</p>",
         "type": "modal",
         "width": 400
       }
@@ -11,8 +11,8 @@
     {
       "wrapper": "input[ui-id=wizard-template-appid-control]",
       "popup": {
-        "content_pt": "<p class='tooltipTitle'>Id da Aplicação</p><p>Neste campo nós iremos informar o Id da Aplicação. Este Id identificará de forma única seu projeto. </p>",
-        "content_en": "<p class='tooltipTitle'>Application Id</p><p>On this field we will inform the Application Id. It uniquely identifies your project across all projects.</p>",
+        "content_pt": "<p class='tooltipTitle'>Id da Aplicação</p><p>Neste campo nós iremos informar o Id da Aplicação. Este Id identificará de forma única seu projeto.</p>",
+        "content_en": "<p class='tooltipTitle'>Application Id</p><p>On this field we will inform the Application Id. This Id will uniquely identify your project.</p>",
         "type": "tooltip",
         "width": 400,
         "position": "bottom"
@@ -42,7 +42,7 @@
       "wrapper": "div[ui-id=wizard-template-authentication-control] div:first-child",
       "popup": {
         "content_pt": "<p class='tooltipTitle'>Tipo de Autenticação</p><p>Escolha qual tipo de autenticação será utilizada quando os usuários acessarem seu sistema.</p>",
-        "content_en": "<p class='tooltipTitle'>Authentication Type</p><p>Choose which authentication type will be used when users access your system.</p>",
+        "content_en": "<p class='tooltipTitle'>Authentication Type</p><p>Choose which type of authentication will be used when users access your system.</p>",
         "type": "tooltip",
         "width": 400,
         "offsetHorizontal":"-360",
@@ -66,7 +66,7 @@
       "wrapper": "div[ui-id=wizard-template-social-control] div:first-child",
       "popup": {
         "content_pt": "<p class='tooltipTitle'>Login por redes sociais</p><p>Escolha se sua aplicação permitirá o login através de redes sociais.</p>",
-        "content_en": "<p class='tooltipTitle'>Login over social networks</p><p>Choose if you application will allow the authentication through social networks.</p>",
+        "content_en": "<p class='tooltipTitle'>Login over social networks</p><p>Choose if your application will allow the authentication through social networks.</p>",
         "type": "tooltip",
         "width": 400,
         "offsetHorizontal":"-360",
@@ -77,7 +77,7 @@
     {
       "wrapper": "div[ui-id=template-next-button]",
       "popup": {
-        "content_pt": "Após adicionar os detalhes arquiteturais e estruturais de seu projeto, clique em Avançar",
+        "content_pt": "Após adicionar os detalhes de arquitetura e estrutura de seu projeto, clique em Avançar",
         "content_en": "After adding the architectural and structural details to your project, click Next",
         "type": "tooltip",
         "offsetHorizontal":"40",
