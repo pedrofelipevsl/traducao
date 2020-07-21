@@ -3,8 +3,8 @@
     
       {
          "popup": {
-             "content_pt": "Vamos criar um diagrama, ele servirá para criar um banco de dados e toda sua camada de persistência. Além disso, também poderemos criar os CRUD´s para as entidades criadas. Mãos à obra!!!",
-             "content_en": "Let's create a diagram, it will be used to create your database and all your persistence layers. Additionally, we can also create CRUD's of entities. Let's get to work!!!",
+             "content_pt": "Vamos criar um diagrama, ele servirá para criar um banco de dados e toda sua camada de persistência. Além disso, também poderemos criar os CRUDs para as entidades criadas. Então, mãos à obra!!!",
+             "content_en": "Let's create a diagram, it will be used to create your database and all your persistence layers. Additionally, we can also create CRUDs of entities. So, let's get to work!!!",
              "type": "modal"
          }
       }, 
