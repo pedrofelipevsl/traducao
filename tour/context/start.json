@@ -4,7 +4,7 @@
       {
          "popup": {
              "content_pt": "<p class=\"tooltipTitle\">Fonte de dados</p>Aqui é o local onde você gerenciará todas as suas conexões com bancos de dados.",
-             "content_en": "<p class=\"tooltipTitle\">Datasource</p>In this place you will manage all your connections with database.",
+             "content_en": "<p class=\"tooltipTitle\">Datasource</p>Here is where you will manage all of your database connections.",
              "type": "modal"
          }
       },
@@ -53,7 +53,7 @@
           "wrapper": "div[ui-id=context-labelManage]",
           "popup": {
              "content_pt": "Clique aqui para abrir o gerenciador do banco de dados, onde você poderá executar comandos SQL, sejam DDL ou DML.",
-             "content_en": "Click here to open the database manager where you can run SQL commands, are DDL or DML.",
+             "content_en": "Click here to open the database manager where you can run SQL commands, DDL or DML.",
              "type": "tooltip",
              "position": "bottom"
           }
@@ -63,7 +63,7 @@
           "wrapper": "div[ui-id=context-btnForm]",
           "popup": {
              "content_pt": "Clique aqui para cadastrar uma nova fonte de dados",
-             "content_en": "Click here to add new datasource",
+             "content_en": "Click here to register a new data source",
              "type": "tooltip",
              "position": "left"
           }

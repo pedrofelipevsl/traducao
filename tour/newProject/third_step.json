@@ -13,7 +13,7 @@
 	            "wrapper": "div[ui-id=newProject-btn-CreateProject]",
 	            "popup": {
 	               "content_pt": "<p>Após informar o nome do nosso projeto, clique em Criar Projeto para continuar.</p>",
-	               "content_en": "<p>After infrom the name of your project, click in create new project to continue.</p>",
+	               "content_en": "<p>After entering the name of our project, click Create Project to continue.</p>",
 	               "type": "tooltip",
 	               "width": 400,
 	               "position": "top"

@@ -12,7 +12,7 @@
          "wrapper":"div[ui-id=openProject-src]",
          "popup":{
             "content_pt":"<p class='tooltipTitle'> Códigos Fonte </p> <p> Nessa pasta encontramos todos os arquivos de desenvolvimento do seu projeto: Frontend, Backend e Testes.</p>",
-            "content_en":"<p class='tooltipTitle'> Sources Code </p> <p> In this folder we find all development files from your project: Front-end, Back-end and Tests.</p>",
+            "content_en":"<p class='tooltipTitle'> Source Codes </p> <p> In this folder we find all development files from your project: Front-end, Back-end and Tests.</p>",
             "type":"tooltip",
             "width":"400",
             "position":"right"
@@ -34,7 +34,7 @@
          "wrapper":"div[ui-id=openProject-template]",
          "popup":{
             "content_pt":"<p class='tooltipTitle'> Arquivos de Template </p> <p> Nesta pasta encontraremos os arquivos modelos utilizados para criar o template do projeto aberto. Podemos alterar esses aquivos a fim de modificar a geração de arquivos durante o uso da IDE. Ex: telas de CRUD, camada REST etc. </p>",
-            "content_en":"<p class='tooltipTitle'> Template Folder </p> <p> In this folder we can find the template files used to create the openned project. We may change these files to modify the generation of resources while using the IDE. Ex: CRUD screens, REST layer etc. </p>",
+            "content_en":"<p class='tooltipTitle'> Template Files </p> <p> In this folder we can find the template files used to create the openned project. We may change these files to modify the generation of resources while using the IDE. Ex: CRUD screens, REST layer etc. </p>",
             "type":"tooltip",
             "width":"400",
             "position":"right"
@@ -54,7 +54,7 @@
          "wrapper":"div[ui-id=openProject-startDebugItem]",
          "popup":{
             "content_pt":"<p class='tooltipTitle'> Debug </p><p> Este é o atalho para a depuração do seu projeto, clique aqui para rodá-lo em modo de debug e poder inspecionar melhor seu código através de breakpoints, expressões, etc. </p>",
-            "content_en":"<p class='tooltipTitle'> Debug your project </p><p> This is the shortcut for debugging your project, click here to run your project in debug mode to inspect your code through breakpoints, expressions, etc. </p>",
+            "content_en":"<p class='tooltipTitle'> Debug </p><p> This is the shortcut for debugging your project, click here to run your project in debug mode to inspect your code through breakpoints, expressions, etc. </p>",
             "type":"tooltip",
             "width":"600",
             "position":"right"
@@ -73,8 +73,8 @@
       {
          "wrapper":"div[ui-id=openProject-runBrowser]",
          "popup":{
-            "content_pt":"<p class='tooltipTitle'> Visualizar seu projeto </p><p>Clique aqui, após rodar ou debugar seu projeto, a fim de visualizá-lo em uma aba do seu navegador. A primeira vez, seu navegador pode bloquear a abertura do projeto, sendo necessário você desbloquear os popups para nossos endereços.</br></br>Observação importante: Um projeto inicialmente é criado com o usuário: \"admin\" e senha padrão: \"admin\"</p>",
-            "content_en":"<p class='tooltipTitle'> Debug your project </p><p> Click here after running or debugging your project in order to view it in a new tab of your browser. The first time, your browser may block the opening of the project. So you need to unlock popups for our addresses. Important Note: A project is initially created with the user: \"admin\" and password: \"admin\". </p>",
+            "content_pt":"<p class='tooltipTitle'> Visualizar seu projeto </p><p>Clique aqui, após rodar ou debugar seu projeto, a fim de visualizá-lo em uma aba do seu navegador. A primeira vez, seu navegador pode bloquear a abertura do projeto, sendo necessário você desbloquear os pop-ups para nossos endereços.</br></br>Observação importante: Um projeto inicialmente é criado com o usuário: \"admin\" e senha padrão: \"admin\"</p>",
+            "content_en":"<p class='tooltipTitle'> Debug your project </p><p> Click here after running or debugging your project in order to view it in a new tab of your browser. The first time, your browser may block the opening of the project. So you need to unlock pop-ups for our addresses. Important Note: A project is initially created with the user: \"admin\" and password: \"admin\". </p>",
             "type":"tooltip",
             "width":"600",
             "position":"right"
@@ -113,7 +113,7 @@
       {
          "popup": {
              "content_pt": "<p class='tooltipTitle'>Pronto! Agora você pode utilizar o Cronapp.</p> </br></br>Qualquer dúvida não deixe de nos contactar através do nosso suporte online e não esqueça de nos avaliar através dos botões de \"Curti\" e \"Não Curti\" no canto da tela.",
-             "content_en": "<p class='tooltipTitle'>Now you can use the Cronapp.</p> </br></br>If you have any questions do not hesitate to contact us through our online support and do not forget to evaluate our work through \"Like\" and \"Dislike\" buttons in the corner.",
+             "content_en": "<p class='tooltipTitle'>Now you can use the Cronapp.</p> </br></br>If you have any questions do not hesitate to contact us through our online support and do not forget to evaluate our work through \"Like\" and \"Dislike\" buttons in the screen corner.",
              "type": "modal",
              "width": 450
          }
