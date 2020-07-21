@@ -5,15 +5,15 @@
         "wrapper": "g.Composition:eq(0)",
         "popup": {
            "content_pt": "Relacionamento criado!",
-           "content_en": "The relationship has been created!",
+           "content_en": "The relationship has created!",
            "type": "tooltip",
            "position": "bottom"
         }
     },
     {
         "popup": {
-           "content_pt": "Com o diagrama pronto podemos avançar...",
-           "content_en": "With the diagram ready we can move forward…",
+           "content_pt": "Com o diagrama pronto, podemos avançar...",
+           "content_en": "With the diagram ready, we can move forward…",
            "type": "modal"
         }
     },
@@ -29,8 +29,8 @@
     {
         "wrapper": "div[ui-id=diagram-persistenceLayer]",
         "popup": {
-           "content_pt": "Clicando aqui você irá gerar as classes necessárias para a camada de persistência.",
-           "content_en": "By clicking here you will generate the necessary classes for the persistence layer.",
+           "content_pt": "Clicando aqui, você irá gerar as classes necessárias para a camada de persistência.",
+           "content_en": "By clicking here, you will generate the necessary classes for the persistence layer.",
            "type": "tooltip",
            "position": "bottom"
         }
@@ -38,8 +38,8 @@
     {
         "wrapper": "div[ui-id=diagram-wizardCrud]",
         "popup": {
-           "content_pt": "Você ainda poderá gerar os formulários (CRUD's) de cada entidade criada!",
-           "content_en": "You can still generate forms (CRUD's) for each entity created!",
+           "content_pt": "Você ainda poderá gerar os formulários (CRUDs) de cada entidade criada!",
+           "content_en": "You can still generate forms (CRUDs) for each entity created!",
            "type": "tooltip",
            "position": "bottom"
         }
