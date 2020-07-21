@@ -14,7 +14,7 @@
           "wrapper": "div[ui-id=diagram-controllersPanel]",
           "popup": {
              "content_pt": "Arraste o componente Class para o centro da tela.",
-             "content_en": "Drag the Class component and drop it in the screen center.",
+             "content_en": "Drag the Class component and drop it in the center of the screen.",
              "type": "tooltip",
              "position": "left"
           }
