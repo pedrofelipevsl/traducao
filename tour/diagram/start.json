@@ -53,7 +53,7 @@
           "wrapper": "div[ui-id=categoryControlItemIdUML]",
           "popup": {
              "content_pt": "<p class=\"tooltipTitle\">Criar uma classe</p>Arraste o componente Class para o centro da tela.",
-             "content_en": "<p class=\"tooltipTitle\">Create a class</p>Drag the class component and drop it in the center of the screen.",
+             "content_en": "<p class=\"tooltipTitle\">Create a class</p>Drag the Class component and drop it in the center of the screen.",
              "type": "tooltip",
              "position": "left"
           }
