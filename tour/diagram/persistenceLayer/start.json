@@ -4,8 +4,8 @@
       {
           "wrapper": "div[ui-id=persistenceLayer-fields]",
           "popup": {
-             "content_pt": "Informações sobre como os arquivos das camadas de persistência, negócio e REST serão gerados",
-             "content_en": "These are the controls, events and properties of the diagram!",
+             "content_pt": "Mostra as informações sobre classes que farão a persistência, o nome do pacote que guardará os arquivos e o tipo de geração a ser utilizado.",
+             "content_en": "It shows information about the classes that maintain persistence, the name of the package that stores the files, and the type of generation to be used.",
              "type": "tooltip",
              "position": "left",
              "width": "250"
