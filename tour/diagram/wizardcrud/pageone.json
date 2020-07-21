@@ -26,7 +26,7 @@
           "wrapper": "*[ui-id=diagram-wizardcrud-btnTarget]",
           "popup": {
              "content_pt": "Você pode alterar a pasta destino clicando aqui.",
-             "content_en": "You can change the target folder, by clicking here.",
+             "content_en": "You can change the target folder by clicking here.",
              "type": "tooltip",
              "position": "top"
           }
