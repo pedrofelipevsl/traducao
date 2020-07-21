@@ -4,7 +4,7 @@
           {
               "popup": {
                  "content_pt": "Agora vamos criar um relacionamento entre as classes criadas.",
-                 "content_en": "Now let's create a relationship between the these classes.",
+                 "content_en": "Now let's create a relationship between these classes.",
                  "type": "modal"
               }
           },
@@ -33,7 +33,7 @@
               "wrapper": "g.Class:eq(1)",
               "popup": {
                  "content_pt": "... e depois nesta classe. E assim, o relacionamento está criado!",
-                 "content_en": "... and then in this class. Now, the relationship has been created! ",
+                 "content_en": "... and then on this class. Now, the relationship has created! ",
                  "type": "tooltip",
                  "position": "bottom"
               }
